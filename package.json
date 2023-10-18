@@ -1,7 +1,9 @@
 {
   "dependencies": {
     "fastify": "^4.24.2",
-    "http": "^0.0.1-security"
+    "http": "^0.0.1-security",
+    "knex": "^3.0.1",
+    "sqlite3": "^5.1.6"
   },
   "devDependencies": {
     "@types/node": "^20.8.7",
