@@ -1,0 +1,19 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2022, // ou a versão do ECMAScript que você está usando
+    "sourceType": "module" // ou "script" se não estiver usando módulos
+  },
+  "env": {
+    "browser": true, // se estiver desenvolvendo para navegadores
+    "node": true // se estiver desenvolvendo para Node.js
+  },
+  "extends": [
+    "eslint:recommended" // regras recomendadas do ESLint
+  ],
+  "rules": {
+    "indent": ["error", 2], // recuo de 2 espaços
+    "quotes": ["error", "single"], // uso de aspas simples
+    "semi": "off" // desativar a regra de ponto e vírgula no final das linhas
+    // Outras regras personalizadas podem ser adicionadas aqui
+  }
+}
